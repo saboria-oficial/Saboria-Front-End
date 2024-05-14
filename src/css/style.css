@@ -1,0 +1,240 @@
+
+/*header*/
+.navbar-brand{
+    min-width: 7rem;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.navbar{
+padding: 0.6rem 1.2rem;
+background-color: var(--branco);
+box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: fit-content;
+}
+.offcanvas-body .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offcanvas-body .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+/*nav-link*/
+.nav-link{
+    font-family: "Lato", sans-serif;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+/*fim navlink*/
+.form-inline{
+    display: flex;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.dropdown-menu{
+    background-color: var(--branco);
+}
+#search{
+    padding: 0.2rem 1rem;
+    border-radius: 0.7rem;
+    border: solid 1px var(--preto);
+}
+#btn-search{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+.links-navbar{
+    display: flex;
+    gap: 10px;
+}
+.links-navbar i{
+
+    font-size: 1.3rem;
+}
+.offcanvas-body{
+    align-items: center;
+}
+.btn-header{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#clear-mode{
+display: none;
+}
+#idiomas{
+    text-decoration: none;
+    color: var(--preto);
+    font-family: "Lato", sans-serif;
+}
+.navbar-brand{
+    width: 150px;
+}
+.navbar-brand img{
+    width: 100%;
+    height: 100%;
+}
+
+/*carrosel*/
+
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    height: 30rem;
+}
+.card-carrosel{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 20.6rem;
+    max-height: 20.6rem;
+    background-color: #f5f5f583;
+    position: absolute;
+}
+.card-carrosel img{
+    width: 95%;
+}
+.carousel-control-next-icon{
+   color: var(--amarelo);
+}
+/*menu restrições*/
+.menu-restricoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: var(--vermelho) 6px solid;
+    padding: 0;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.menu-restricoes .nav-link{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0 0px 20px 20px;
+    font-size: 1.5rem;
+}
+.menu-restricoes .nav-link:hover{
+    color: var(--preto);
+}
+/*card resturantes*/
+.card-restaurantes{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 20px;
+}
+.rest-img{
+    height: 75%;
+}
+.rest-img img{
+    width: 100%;
+}
+.rest-icons{
+    width: 100%;
+    background-color: var(--verde);
+    height: 25%;
+    font-size: 1px;
+    color: var(--branco);
+}
+.rest-icons .bi-cup-straw{
+    float: right;
+}
+.rest-icons .fa-star{
+    color: var(--amarelo);
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*tirar daqui*/
+    /*tirar daqui*/
+    flex-direction: column;
+     background-color: #ffca3e;
+    width: 100%;
+    text-align: center;
+}
+#container-footer{
+    padding: 1.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card-footer img{
+    width: 100%;
+}
+.card-footer ul{
+    line-height: 2rem;
+}
+.card-footer  a, .card-footer p, .card-footer {
+    font-size: 1.2rem;
+    color: var(--preto);
+    text-decoration: none;
+}
+.card-footer a:hover{
+    text-decoration: underline 2px solid var(--preto);
+    text-underline-offset: 0.5rem;
+}
+.card-footer h2{
+    font-size: 1.2rem;
+}
+.icons-footer{
+    border-top: var(--branco) 2px solid;
+    padding: 0.5rem 0rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.icon-footer{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--branco);
+    margin: 5px;
+    width: 3.75rem;
+    height: 3.75rem;
+   border-radius: 50%;
+   padding: 0.3rem;
+   transition: 0.2s ease-in all;
+}
+.icon-footer i{
+    color: var(--branco);
+}
+.icon-footer:hover{
+    background-color: var(--branco);
+}
+.icon-footer:hover  i{
+    color: var(--amarelo);
+}
